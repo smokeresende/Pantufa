@@ -1,0 +1,65 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: #465737;
+    width: 500px;
+}
+/*lixxooooooooo*/
+nav {
+    position: fixed;
+    background-color: #36422A;
+    width: 100%;
+    padding: 20px;
+}
+
+.conteiner { 
+    display: flex;
+    background-color: #465737;
+    justify-content: center;
+    border-radius: 30px;
+    width: 1000px;
+     
+}
+
+.conteiner div {
+    background-color: #465737;
+    margin: 0%;
+    padding: 0px;
+    align-self: center;
+
+}
+
+.corpo {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    width: 1000px;
+    
+}
+
+.corpo div {
+    background-color: #465737;
+    margin:50px;
+    padding: 5%;
+    border-radius: 50px;
+    width: 100%;
+   
+}
+
+.imagemlogo {
+    width: 100px;
+    padding: 0px;
+    border-radius: 15%;
+}
+
+.imagemtexto1 {
+    width:300px;
+    border-radius: 15%;
+
+}
+
+
