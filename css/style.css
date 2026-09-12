@@ -8,12 +8,12 @@ h1 {
     background-color: #465737;
     width: 500px;
 }
-/*lixxooooooooo*/
-nav {
-    position: fixed;
-    background-color: #36422A;
-    width: 100%;
-    padding: 20px;
+
+.opcao {
+    display: block;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
 }
 
 .conteiner { 
@@ -51,7 +51,7 @@ nav {
 }
 
 .imagemlogo {
-    width: 100px;
+    width: 150px;
     padding: 0px;
     border-radius: 15%;
 }
@@ -59,7 +59,19 @@ nav {
 .imagemtexto1 {
     width:300px;
     border-radius: 15%;
-
 }
 
+.form{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form div{
+    background-color: #465737;
+    width: 500px;
+    height: 600px;
+    border-radius: 50px;
+    padding-left: 10%;
+}
 
