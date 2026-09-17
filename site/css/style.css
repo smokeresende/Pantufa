@@ -119,12 +119,3 @@ footer {
 .imagemtexto2:hover {
     transform: scale(1.1);
 }
-
-.pulo {
-    width:300px;
-    transition: transform 0.3s ease;
-}
-
-.pulo:hover {
-    transform: scale(1.1);
-}
