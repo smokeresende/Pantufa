@@ -1,12 +1,33 @@
 body {
     background-color: gray;
     color: white;
+      margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
 }
 
 h1 {
     text-align: center;
     background-color: #465737;
     width: 500px;
+}
+
+h2{
+    text-align: center;
+    background-color: #465737;
+    border-radius: 50px;
+    width: 100%;
+    
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    box-sizing: border-box;
 }
 
 .opcao {
@@ -22,6 +43,7 @@ h1 {
     justify-content: center;
     border-radius: 30px;
     width: 1000px;
+    margin-top: 40px;
      
 }
 
@@ -43,7 +65,7 @@ h1 {
 
 .corpo div {
     background-color: #465737;
-    margin:50px;
+    margin:25px;
     padding: 5%;
     border-radius: 50px;
     width: 100%;
@@ -75,3 +97,34 @@ h1 {
     padding-left: 10%;
 }
 
+.center{
+   justify-content: center;
+   display: flex;
+   text-align: center;
+}
+
+
+.center2{
+   left: 50%;
+   display: flex;
+   right: 50%;
+}
+
+.imagemtexto2 {
+    width:300px;
+    border-radius: 15%;
+    transition: transform 0.3s ease;
+}
+
+.imagemtexto2:hover {
+    transform: scale(1.1);
+}
+
+.pulo {
+    width:300px;
+    transition: transform 0.3s ease;
+}
+
+.pulo:hover {
+    transform: scale(1.1);
+}
